@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Chatbot</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="app-container">
+
+    <!-- Top Search Bar -->
+    <div class="top-bar">
+        <input id="user-input" type="text" placeholder="Ask your question..." />
+        <button onclick="sendMessage()">Search</button>
+    </div>
+
+    <!-- Chat Area -->
+    <div id="chat-box" class="chat-box">
+        <div class="bot-message">
+            <p>Hello! How can I assist you today?</p>
+        </div>
+    </div>
+
+</div>
+
+<script src="/static/chat.js"></script>
+</body>
+</html>
